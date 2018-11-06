@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Michael Li",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "bad-words": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.0",
+    "monk": "^6.0.6",
+    "morgan": "^1.9.1",
+    "now": "^11.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
